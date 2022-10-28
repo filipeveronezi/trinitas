@@ -8,7 +8,7 @@ export function Hero() {
       <p className="max-w-[700px] px-10 text-center text-lg font-normal text-gray-600 lg:text-2xl">Somos um curso aberto de teologia para cristãos interessados em crescer em conhecimento bíblico e teológico e em servir à igreja local</p>
       <Button color="white">Garanta sua vaga</Button>
       <div className="relative mt-10 h-[150px] w-screen md:h-[300px] xl:h-[400px]">
-        <Image src="/hero-illustration.svg" alt="Desenho de uma mesa de estudos" fill />
+        <Image src="/hero-illustration.svg" alt="Desenho de uma mesa de estudos" fill sizes="100vw" priority />
       </div>
     </section>
   )

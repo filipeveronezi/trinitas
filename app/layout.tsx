@@ -6,7 +6,7 @@ const spaceGrotesk = Space_Grotesk()
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`text-black ${spaceGrotesk.className}`}>
+    <html lang="pt-BR" className={`text-black ${spaceGrotesk.className}`}>
       <head>
         <title>Trinitas</title>
         <meta name="description" content="Um curso aberto de teologia para cristãos interessados em crescer em conhecimento bíblico e teológico e em servir à igreja local" />
