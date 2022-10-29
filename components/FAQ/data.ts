@@ -9,7 +9,7 @@ const FAQData = [
   },
   {
     question: 'Onde?',
-    answer: 'Estamos localizados na Rua Sueli Aparecida Leite Nogueira, 569 - Ribeirão dos Porcos, Atibaia - SP. Oferecemos toda estrutura de ensino - com cadeiras, mídia e material de apoio!'
+    answer: 'O curso Trinitas é 100% presencial. Estamos localizados na Rua Sueli Aparecida Leite Nogueira, 569 - Ribeirão dos Porcos, Atibaia - SP. Oferecemos toda estrutura de ensino - com cadeiras, mídia e material de apoio!'
   },
   {
     question: 'Quanto?',
