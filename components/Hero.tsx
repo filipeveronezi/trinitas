@@ -6,7 +6,9 @@ export function Hero() {
     <section className="flex flex-col items-center justify-center gap-5 pt-20">
       <h1 className="mt-10 px-10 text-center text-6xl font-bold lg:text-8xl">Estude as Escrituras</h1>
       <p className="max-w-[700px] px-10 text-center text-lg font-normal text-gray-600 lg:text-2xl">Somos um curso aberto de teologia, 100% presencial, destinado a cristãos interessados em servir à igreja local e crescer em conhecimento bíblico e teológico</p>
-      <Button color="white">Garanta sua vaga</Button>
+      <Button aria-label="Garanta sua vaga" color="white">
+        Garanta sua vaga
+      </Button>
       <div className="relative mt-10 h-[150px] w-screen md:h-[300px] xl:h-[400px]">
         <Image src="/hero-illustration.svg" alt="Desenho de uma mesa de estudos" fill sizes="100vw" priority />
       </div>

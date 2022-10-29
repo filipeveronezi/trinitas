@@ -25,7 +25,9 @@ export function FAQ() {
           </p>
         </div>
         <div className="mt-10">
-          <Button color="black">Inscreva-se agora</Button>
+          <Button aria-label="Inscreva-se agora" color="black">
+            Inscreva-se agora
+          </Button>
         </div>
       </div>
     </section>

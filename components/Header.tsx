@@ -16,7 +16,7 @@ export function Header() {
             <Image src="/trinitas-horizontal.svg" alt="Logotipo Trinitas" fill sizes="170px" />
           </div>
         </Link>
-        <button className="absolute top-1 right-10 my-auto lg:hidden" onClick={() => setIsNavOpen((state) => !state)} type="button">
+        <button aria-label="Menu" className="absolute top-1 right-10 my-auto lg:hidden" onClick={() => setIsNavOpen((state) => !state)} type="button">
           {isNavOpen ? <XMarkIcon className="h-7 w-7" /> : <Bars3Icon className="h-7 w-7" />}
         </button>
         <nav className={`${isNavOpen ? 'block' : 'hidden'} mt-5 lg:mt-0 lg:block`}>
