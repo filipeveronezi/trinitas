@@ -11,7 +11,7 @@ const colorClassNames = {
 
 export function Button({ color, ...props }: ButtonProps) {
   return (
-    <button {...props} className={`${colorClassNames[color]} flex translate-y-[-4px] translate-x-[-4px] items-center justify-center rounded-xl border-[3px] px-10 py-3 text-xl active:translate-x-0 active:translate-y-0 active:drop-shadow-none lg:translate-x-0 lg:translate-y-0 lg:text-2xl lg:hover:translate-y-[-4px] lg:hover:translate-x-[-4px] lg:active:translate-x-0 lg:active:translate-y-0 lg:active:drop-shadow-none`}>
+    <button {...props} className={`${colorClassNames[color]} flex translate-y-[-4px] translate-x-[-4px] items-center justify-center rounded-xl border-[3px] px-10 py-3 text-xl active:translate-x-0 active:translate-y-0 active:drop-shadow-none lg:translate-x-0 lg:translate-y-0 lg:text-2xl lg:hover:translate-y-[-4px] lg:hover:translate-x-[-4px] lg:active:translate-x-0 lg:active:translate-y-0 lg:active:drop-shadow-none`} type="button">
       {props.children}
     </button>
   )
