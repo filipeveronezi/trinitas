@@ -1,4 +1,5 @@
 import { Calendar } from '@/components/Calendar'
+import { CallToAction } from '@/components/CallToAction'
 import { CourseStructure } from '@/components/CouseStructure'
 import { FAQ } from '@/components/FAQ'
 import { Hero } from '@/components/Hero'
@@ -12,6 +13,7 @@ export default function Home() {
       <WhoWeAre />
       <FAQ />
       <Calendar />
+      <CallToAction />
     </main>
   )
 }
