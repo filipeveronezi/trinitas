@@ -1,3 +1,4 @@
+import { Calendar } from '@/components/Calendar'
 import { CourseStructure } from '@/components/CouseStructure'
 import { FAQ } from '@/components/FAQ'
 import { Hero } from '@/components/Hero'
@@ -10,6 +11,7 @@ export default function Home() {
       <CourseStructure />
       <WhoWeAre />
       <FAQ />
+      <Calendar />
     </main>
   )
 }
