@@ -2,7 +2,7 @@ import { Header } from '@/components/Header'
 import { Space_Grotesk } from '@next/font/google'
 import './globals.css'
 
-const spaceGrotesk = Space_Grotesk()
+const spaceGrotesk = Space_Grotesk({ subsets: ['latin'] })
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
