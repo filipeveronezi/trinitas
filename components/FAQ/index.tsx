@@ -6,7 +6,7 @@ import { QuestionAndAnswer } from './QuestionAndAnswer'
 
 export function FAQ() {
   return (
-    <section className="bg-black py-24 text-white">
+    <section id="o-curso" className="bg-black py-28 text-white">
       <div className="mx-auto flex w-full max-w-screen-xl flex-col gap-10 px-10">
         <h2 className="max-w-[700px] text-5xl font-bold lg:text-7xl">Tudo que você precisa saber</h2>
         {FAQData.map((questionAndAnswerProps) => (
