@@ -1,4 +1,5 @@
 import { CourseStructure } from '@/components/CouseStructure'
+import { FAQ } from '@/components/FAQ'
 import { Hero } from '@/components/Hero'
 import { WhoWeAre } from '@/components/WhoWeAre'
 
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <CourseStructure />
       <WhoWeAre />
+      <FAQ />
     </main>
   )
 }
