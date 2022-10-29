@@ -1,6 +1,6 @@
 export function WhoWeAre() {
   return (
-    <div className="mx-auto flex max-w-screen-xl flex-col gap-24 px-10 py-16">
+    <section className="mx-auto flex max-w-screen-xl flex-col gap-24 px-10 py-16">
       <div className="flex flex-col gap-5">
         <h2 className="text-5xl font-bold lg:text-7xl">Quem somos?</h2>
         <p className="text-gray-700 lg:text-lg xl:max-w-[80%]">A Igreja Batista da Trindade é uma igreja batista reformada que existe desde 2006 em Atibaia. Uma das ênfases da igreja é o ensino bíblico e teológico e, pela necessidade de preparar melhor os próprios membros da igreja, surgiu a ideia do Curso Trinitas. Os professores são pastores e mestres reconhecidos pela excelência acadêmica e com experiência de ensino em seminários e na igreja local.</p>
@@ -23,6 +23,6 @@ export function WhoWeAre() {
           7. Na vida eterna para todos os que confiam em Jesus Cristo para salvação.
         </p>
       </div>
-    </div>
+    </section>
   )
 }
