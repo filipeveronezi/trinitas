@@ -5,7 +5,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 const colorClassNames = {
-  white: 'bg-white text-black border-black shadow-lg drop-shadow-[4px_4px_0_rgba(32,32,32,1)] lg:drop-shadow-none lg:hover:drop-shadow-[4px_4px_0_rgba(32,32,32,1)]',
+  white: 'bg-white text-black border-black drop-shadow-[4px_4px_0_rgba(32,32,32,1)] lg:drop-shadow-none lg:hover:drop-shadow-[4px_4px_0_rgba(32,32,32,1)]',
   black: 'bg-black text-white border-white drop-shadow-[4px_4px_0_rgba(255,255,255,1)] lg:drop-shadow-none lg:hover:drop-shadow-[4px_4px_0_rgba(255,255,255,1)]'
 }
 
