@@ -18,13 +18,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta property="og:url" content="https://www.cursotrinitas.com.br/" />
         <meta property="og:title" content="Curso Trinitas" />
         <meta property="og:description" content="Um curso aberto de teologia para cristãos interessados em crescer em conhecimento bíblico e teológico e em servir à igreja local" />
-        <meta property="og:image" content="" />
+        <meta property="og:image" content="/trinitas-introduction.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.cursotrinitas.com.br/" />
         <meta property="twitter:title" content="Curso Trinitas" />
         <meta property="twitter:description" content="Um curso aberto de teologia para cristãos interessados em crescer em conhecimento bíblico e teológico e em servir à igreja local" />
-        <meta property="twitter:image" content=""></meta>
+        <meta property="twitter:image" content="/trinitas-introduction.png" />
       </head>
       <body>
         <Header />
