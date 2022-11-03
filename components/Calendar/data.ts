@@ -20,7 +20,7 @@ const calendarData: ICalendarData[] = [
         month: 'march'
       },
       {
-        number: '15',
+        number: '08',
         month: 'april'
       }
     ]
@@ -48,15 +48,15 @@ const calendarData: ICalendarData[] = [
     teacher: 'Prof. Pedro Wazen de Freitas',
     classDays: [
       {
-        number: '16',
+        number: '23',
         month: 'september'
       },
       {
-        number: '21',
+        number: '28',
         month: 'october'
       },
       {
-        number: '11',
+        number: '18',
         month: 'november'
       }
     ]
