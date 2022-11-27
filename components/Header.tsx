@@ -13,7 +13,7 @@ export function Header() {
       <div className="relative mx-auto flex w-full max-w-screen-xl flex-col justify-center px-10 lg:flex-row lg:items-center">
         <Link className="lg:absolute lg:left-10" href="/">
           <div className="relative h-[40px] w-[170px] cursor-pointer">
-            <Image src="/trinitas-horizontal.svg" alt="Logotipo Trinitas" fill sizes="170px" />
+            <Image priority src="/trinitas-horizontal.svg" alt="Logotipo Trinitas" fill sizes="170px" />
           </div>
         </Link>
         <button aria-label="Menu" className="absolute top-1 right-10 my-auto lg:hidden" onClick={() => setIsNavOpen((state) => !state)} type="button">
