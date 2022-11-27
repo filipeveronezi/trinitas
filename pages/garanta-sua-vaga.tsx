@@ -7,12 +7,6 @@ import { trpc } from '@/utils/trpc'
 import Head from 'next/head'
 import { useState } from 'react'
 
-export async function getStaticProps() {
-  return {
-    props: {}
-  }
-}
-
 export default function GarantaSuaVagaPage() {
   const { data, isLoading } = trpc.preSubscriptionRemainingSlots.useQuery()
   const { mutateAsync: createPreSubscription } = trpc.createPreSubscription.useMutation({})
@@ -85,7 +79,7 @@ export default function GarantaSuaVagaPage() {
                 </Message>
                 <h1 className="text-5xl font-bold leading-tight lg:text-center lg:text-6xl">Garanta sua vaga no Curso Trinitas 2023</h1>
                 <p className="max-w-max rounded-xl bg-black p-4 text-xl font-bold text-white lg:text-2xl">Vagas restantes: {data?.remainingSlots}</p>
-                <h2 className="text-2xl lg:text-center lg:text-3xl">{data!.remainingSlots > 0 ? 'Realize sua pré-inscrição através do formulário: ' : 'Infelizmente as vagas acabaram, mas você ainda pode se inscrever na nossa lista de espera: '}</h2>
+                <h2 className="text-2xl lg:text-center lg:text-3xl">{data && data.remainingSlots > 0 ? 'Realize sua pré-inscrição através do formulário: ' : 'Infelizmente as vagas acabaram, mas você ainda pode se inscrever na nossa lista de espera: '}</h2>
                 <form className="flex w-full flex-col gap-7" action="submit" onSubmit={(event) => handleSubmit(event)}>
                   <input className="rounded-lg border-none bg-gray-200 p-4 text-lg font-medium" value={name} onChange={(event) => setName(event.target.value)} type="text" placeholder="Nome" id="name" />
                   <input
