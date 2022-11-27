@@ -1,13 +1,15 @@
-import { Header } from '@/components/Header'
-import { Space_Grotesk } from '@next/font/google'
-import './globals.css'
+import { Calendar } from '@/components/Calendar'
+import { CallToAction } from '@/components/CallToAction'
+import { CourseStructure } from '@/components/CouseStructure'
+import { FAQ } from '@/components/FAQ'
+import { Hero } from '@/components/Hero'
+import { WhoWeAre } from '@/components/WhoWeAre'
+import Head from 'next/head'
 
-const spaceGrotesk = Space_Grotesk({ subsets: ['latin'] })
-
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function IndexPage() {
   return (
-    <html lang="pt-BR" className={`scroll-smooth text-black ${spaceGrotesk.className}`}>
-      <head>
+    <>
+      <Head>
         <title>Curso Trinitas</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
         <meta name="description" content="Um curso aberto de teologia para cristãos interessados em crescer em conhecimento bíblico e teológico e em servir à igreja local" />
@@ -25,11 +27,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta property="twitter:title" content="Curso Trinitas" />
         <meta property="twitter:description" content="Um curso aberto de teologia para cristãos interessados em crescer em conhecimento bíblico e teológico e em servir à igreja local" />
         <meta property="twitter:image" content="/trinitas-introduction.png" />
-      </head>
-      <body>
-        <Header />
-        {children}
-      </body>
-    </html>
+      </Head>
+      <main className="overflow-hidden">
+        <Hero />
+        <CourseStructure />
+        <WhoWeAre />
+        <FAQ />
+        <Calendar />
+        <CallToAction />
+      </main>
+    </>
   )
 }
