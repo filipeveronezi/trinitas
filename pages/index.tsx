@@ -6,6 +6,12 @@ import { Hero } from '@/components/Hero'
 import { WhoWeAre } from '@/components/WhoWeAre'
 import Head from 'next/head'
 
+export async function getStaticProps() {
+  return {
+    props: {}
+  }
+}
+
 export default function IndexPage() {
   return (
     <>

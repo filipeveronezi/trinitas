@@ -7,6 +7,12 @@ import { trpc } from '@/utils/trpc'
 import Head from 'next/head'
 import { useState } from 'react'
 
+export async function getStaticProps() {
+  return {
+    props: {}
+  }
+}
+
 export default function GarantaSuaVagaPage() {
   const { data } = trpc.preSubscriptionRemainingSlots.useQuery()
   const { mutateAsync: createPreSubscription } = trpc.createPreSubscription.useMutation({})
