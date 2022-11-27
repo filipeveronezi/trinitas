@@ -22,13 +22,13 @@ export function Header() {
         <nav className={`${isNavOpen ? 'block' : 'hidden'} mt-5 lg:mt-0 lg:block`}>
           <ul className="flex flex-col gap-5 text-lg font-medium lg:flex-row lg:gap-20">
             <li>
-              <a href="/#quem-somos">Quem somos</a>
+              <Link href="/#quem-somos">Quem somos</Link>
             </li>
             <li>
-              <a href="/#o-curso">O Curso</a>
+              <Link href="/#o-curso">O Curso</Link>
             </li>
             <li>
-              <a href="/#calendario">Calendário</a>
+              <Link href="/#calendario">Calendário</Link>
             </li>
           </ul>
         </nav>
