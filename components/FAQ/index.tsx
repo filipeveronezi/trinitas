@@ -1,4 +1,3 @@
-import { InformationCircleIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 import { Button } from '../Button'
 import { FAQData } from './data'
@@ -12,7 +11,7 @@ export function FAQ() {
         {FAQData.map((questionAndAnswerProps) => (
           <QuestionAndAnswer key={questionAndAnswerProps.question} {...questionAndAnswerProps} />
         ))}
-        <div className="flex items-center gap-2">
+        {/* <div className="flex items-center gap-2">
           <div>
             <InformationCircleIcon className="h-8 w-8" />
           </div>
@@ -23,7 +22,7 @@ export function FAQ() {
             </Link>
             .
           </p>
-        </div>
+        </div> */}
         <div className="mt-10">
           <Link href="/garanta-sua-vaga">
             <Button aria-label="Inscreva-se agora" color="black">
