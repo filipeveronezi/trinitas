@@ -33,6 +33,8 @@ export default function IndexPage() {
         <meta property="twitter:title" content="Curso Trinitas" />
         <meta property="twitter:description" content="Um curso aberto de teologia para cristãos interessados em crescer em conhecimento bíblico e teológico e em servir à igreja local" />
         <meta property="twitter:image" content="/trinitas-introduction.png" />
+
+        <meta name="robots" content="all" />
       </Head>
       <main className="overflow-hidden">
         <Hero />
