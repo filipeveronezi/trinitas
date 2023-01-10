@@ -27,10 +27,10 @@ const calendarData: ICalendarData[] = [
   },
   {
     courseName: 'Introdução à Hermenêutica',
-    teacher: 'Prof. Helder Cardin',
+    teacher: 'Prof. Roni Santos',
     classDays: [
       {
-        number: '20',
+        number: '27',
         month: 'may'
       },
       {
