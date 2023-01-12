@@ -34,7 +34,7 @@ const calendarData: ICalendarData[] = [
         month: 'may'
       },
       {
-        number: '10',
+        number: '24',
         month: 'june'
       },
       {
