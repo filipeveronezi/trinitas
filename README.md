@@ -1,9 +1,3 @@
-<div align="center" style="border-radius:50%">
-  <a href="https://cursotrinitas.com.br">
-    <img src="https://user-images.githubusercontent.com/48724782/212928039-5d149b86-8dfa-49a9-85d8-d32fead72138.png" />
-  </a>
-</div>
-
 <h1 align="center">
   Trinitas
 </h1>
@@ -32,4 +26,11 @@ and in serving the ⛪ local church.
   styled with 💎 <a href="https://tailwindcss.com"><strong>TailwindCSS</strong></a>
 </div>
 
+<br />
+<br />
 
+<div align="center" style="border-radius:50%">
+  <a href="https://cursotrinitas.com.br">
+    <img src="https://user-images.githubusercontent.com/48724782/212928039-5d149b86-8dfa-49a9-85d8-d32fead72138.png" />
+  </a>
+</div>
