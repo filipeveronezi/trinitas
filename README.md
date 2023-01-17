@@ -1,9 +1,9 @@
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/48724782/212791155-07e9aae8-be67-408f-85c0-588f2d97a10f.png" width=50 />
+<div align="center" style="border-radius:50%">
+  <img src="https://user-images.githubusercontent.com/48724782/212928039-5d149b86-8dfa-49a9-85d8-d32fead72138.png" />
 </div>
 
 <h1 align="center">
-  <a href="https://www.cursotrinitas.com.br">Trinitas</a>
+  Trinitas
 </h1>
 
 <div align="center">
