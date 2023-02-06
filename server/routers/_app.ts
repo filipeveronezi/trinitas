@@ -64,7 +64,17 @@ export const appRouter = router({
           message: 'Unknown error'
         }
       }
+    }),
+
+  subscribers: procedure.query(async ({ ctx }) => {
+    const subscribers = await ctx.prisma.preSubscription.findMany({
+      orderBy: {
+        name: 'asc'
+      }
     })
+
+    return subscribers
+  })
 })
 
 export type AppRouter = typeof appRouter
