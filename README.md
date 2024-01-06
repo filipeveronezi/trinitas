@@ -20,7 +20,7 @@ and in serving the ⛪ local church.
 <br />
 
 <div align="center">
-  mainly built with ⚡ <a href="https://nextjs.org"><strong>NextJS</strong></a>, <a href="https://prisma.io/"><strong>Prisma</strong></a> and <a href="https://trpc.io/"><strong>tRPC</strong></a>
+  mainly built with ⚡ <a href="https://nextjs.org"><strong>NextJS</strong></a>
 </div>
 <div align="center">
   styled with 💎 <a href="https://tailwindcss.com"><strong>TailwindCSS</strong></a>

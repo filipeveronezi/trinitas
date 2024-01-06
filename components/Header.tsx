@@ -16,7 +16,7 @@ export function Header() {
             <Image priority src="/trinitas-horizontal.svg" alt="Logotipo Trinitas" fill sizes="170px" />
           </div>
         </Link>
-        <button aria-label="Menu" className="absolute top-1 right-10 my-auto lg:hidden" onClick={() => setIsNavOpen((state) => !state)} type="button">
+        <button aria-label="Menu" className="absolute right-10 top-1 my-auto lg:hidden" onClick={() => setIsNavOpen((state) => !state)} type="button">
           {isNavOpen ? <XMarkIcon className="h-7 w-7" /> : <Bars3Icon className="h-7 w-7" />}
         </button>
         <nav className={`${isNavOpen ? 'block' : 'hidden'} mt-5 lg:mt-0 lg:block`}>
@@ -28,7 +28,10 @@ export function Header() {
               <Link href="/#o-curso">O Curso</Link>
             </li>
             <li>
-              <Link href="/#calendario">Calendário</Link>
+              <Link href="/#calendario" className="relative">
+                <span>Calendário</span>
+                <span className="absolute -right-10 -top-4 w-max rounded-full bg-zinc-950 px-2 py-1 text-xs text-white">2024</span>
+              </Link>
             </li>
           </ul>
         </nav>
