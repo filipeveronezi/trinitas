@@ -10,13 +10,13 @@ const courseStructureData: CourseYearInformationProps[] = [
   {
     year: '02',
     subject: 'Fundamentos II',
-    description: 'Família Cristã, Introdução ao AT, Introdução ao Novo Testamento e Vida de Cristo',
+    description: 'Teologia Bíblica do Antigo Testamento, Família Cristã, e Vida de Cristo',
     bgColor: 'white'
   },
   {
     year: '03',
     subject: 'Teologia bíblica e histórica',
-    description: 'História da Teologia Cristã, Teologia Bíblica do Antigo e do Novo Testamento',
+    description: 'História da Teologia Cristã, Teologia Bíblica do Novo Testamento',
     bgColor: 'black'
   },
   {
