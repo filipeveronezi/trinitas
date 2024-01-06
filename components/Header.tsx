@@ -22,13 +22,13 @@ export function Header() {
         <nav className={`${isNavOpen ? 'block' : 'hidden'} mt-5 lg:mt-0 lg:block`}>
           <ul className="flex flex-col gap-5 text-lg font-medium lg:flex-row lg:gap-20">
             <li>
-              <Link href="/#quem-somos">Quem somos</Link>
+              <Link href="#quem-somos">Quem somos</Link>
             </li>
             <li>
-              <Link href="/#o-curso">O Curso</Link>
+              <Link href="#o-curso">O Curso</Link>
             </li>
             <li>
-              <Link href="/#calendario" className="relative">
+              <Link href="#calendario" className="relative">
                 <span>Calendário</span>
                 <span className="absolute -right-10 -top-4 w-max rounded-full bg-zinc-950 px-2 py-1 text-xs text-white">2024</span>
               </Link>
