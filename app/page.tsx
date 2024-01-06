@@ -1,6 +1,6 @@
 import { Calendar } from '@/components/Calendar'
 import { CallToAction } from '@/components/CallToAction'
-import { CourseStructure } from '@/components/CouseStructure'
+import { CourseStructure } from '@/components/CourseStructure'
 import { FAQ } from '@/components/FAQ'
 import { Hero } from '@/components/Hero'
 import { WhoWeAre } from '@/components/WhoWeAre'

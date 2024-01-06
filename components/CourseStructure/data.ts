@@ -16,7 +16,7 @@ const courseStructureData: CourseYearInformationProps[] = [
   {
     year: '03',
     subject: 'Teologia bíblica e histórica',
-    description: 'História da Teologia Cristã, Teologia Bíblica do Novo Testamento',
+    description: 'História da Teologia Cristã, Teologia Bíblica do Novo Testamento, Teologia Sistemática II e Ética II',
     bgColor: 'black'
   },
   {
