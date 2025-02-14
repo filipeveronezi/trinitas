@@ -8,55 +8,55 @@ interface ICalendarData {
 
 const calendarData: ICalendarData[] = [
   {
-    courseName: 'Teologia Bíblica do Antigo Testamento',
-    teacher: 'Prof. Filipe Santos',
+    courseName: 'Ética II',
+    teacher: 'Pr. Davi Cáceres',
     classDays: [
       {
-        number: '17',
+        number: '22',
         month: 'february'
       },
       {
-        number: '16',
+        number: '22',
         month: 'march'
       },
       {
-        number: '13',
+        number: '26',
         month: 'april'
       }
     ]
   },
   {
-    courseName: 'Família Cristã',
-    teacher: 'Prof. Ivis Fernandes',
+    courseName: 'História da Igreja I',
+    teacher: 'Pr. Roni Santos',
     classDays: [
       {
-        number: '18',
+        number: '10',
         month: 'may'
       },
       {
-        number: '08',
+        number: '07',
         month: 'june'
       },
       {
-        number: '03',
+        number: '09',
         month: 'august'
       }
     ]
   },
   {
-    courseName: 'Vida de Cristo',
-    teacher: 'Prof. Roni Santos',
+    courseName: 'Ministério na Pós-modernidade',
+    teacher: 'Pr. Carlos Felipe (Café)',
     classDays: [
       {
-        number: '21',
+        number: '13',
         month: 'september'
       },
       {
-        number: '19',
+        number: '11',
         month: 'october'
       },
       {
-        number: '09',
+        number: '08',
         month: 'november'
       }
     ]

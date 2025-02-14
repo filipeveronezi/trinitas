@@ -29,8 +29,7 @@ export function Header() {
             </li>
             <li>
               <a href="#calendario" className="relative">
-                <span>Calendário</span>
-                <span className="absolute -right-10 -top-4 w-max rounded-full bg-zinc-950 px-2 py-1 text-xs text-white">2024</span>
+                <span>Calendário 2025</span>
               </a>
             </li>
           </ul>
