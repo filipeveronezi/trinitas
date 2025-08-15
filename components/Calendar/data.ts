@@ -48,7 +48,7 @@ const calendarData: ICalendarData[] = [
     teacher: 'Pr. Carlos Felipe (Café)',
     classDays: [
       {
-        number: '13',
+        number: '20',
         month: 'september'
       },
       {
