@@ -29,7 +29,7 @@ export function Header() {
             </li>
             <li>
               <a href="#calendario" className="relative">
-                <span>Calendário 2025</span>
+                <span>Calendário 2026</span>
               </a>
             </li>
           </ul>

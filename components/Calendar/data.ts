@@ -8,55 +8,57 @@ interface ICalendarData {
 
 const calendarData: ICalendarData[] = [
   {
-    courseName: 'Ética II',
-    teacher: 'Pr. Davi Cáceres',
+    courseName: 'Teologia Bíblica do NT',
+    teacher: 'Roni',
     classDays: [
       {
-        number: '22',
-        month: 'february'
-      },
-      {
-        number: '22',
+        number: '07',
         month: 'march'
       },
       {
-        number: '26',
+        number: '18',
         month: 'april'
       }
     ]
   },
   {
-    courseName: 'História da Igreja I',
-    teacher: 'Pr. Roni Santos',
+    courseName: 'Teologia Sistemática II',
+    teacher: 'Pedro',
     classDays: [
       {
-        number: '10',
+        number: '30',
         month: 'may'
       },
       {
-        number: '07',
+        number: '27',
         month: 'june'
-      },
-      {
-        number: '09',
-        month: 'august'
       }
     ]
   },
   {
-    courseName: 'Ministério na Pós-modernidade',
-    teacher: 'Pr. Carlos Felipe (Café)',
+    courseName: 'Ética III',
+    teacher: 'Davi',
     classDays: [
       {
-        number: '20',
-        month: 'september'
+        number: '15',
+        month: 'august'
       },
       {
-        number: '11',
+        number: '05',
+        month: 'september'
+      }
+    ]
+  },
+  {
+    courseName: 'Aconselhamento Bíblico',
+    teacher: 'Ivis',
+    classDays: [
+      {
+        number: '03',
         month: 'october'
       },
       {
-        number: '08',
+        number: '07',
         month: 'november'
       }
     ]
